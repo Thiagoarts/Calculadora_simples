@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <title>Calculadora Simples</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora</h1>
+
+    <input type="number" id="num1" placeholder="Digite o 1° número" />
+    <input type="number" id="num2" placeholder="Digite o 2° número" />
+
+    <div class="botoes-operacao">
+        <div class="coluna">
+            <button onclick="somar()"><i class="fas fa-plus"></i>Somar</button>
+            <button onclick="subtrair()"><i class="fas fa-minus"></i>Subtrair</button>
+        </div>
+        <div class="coluna">
+            <button onclick="multiplicar()"><i class="fas fa-times"></i>Multiplicar</button>
+            <button onclick="dividir()"><i class="fas fa-divide"></i>Dividir</button>
+        </div>
+    </div>
+
+
+
+    <h2 id="resultado"></h2>
+
+    <button id="limparBtn">Limpar</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
