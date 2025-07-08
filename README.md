@@ -20,4 +20,9 @@ Permite realizar operações básicas como soma, subtração, multiplicação e 
 - JavaScript puro (DOM)
 
 ## 📂 Estrutura de arquivos
-
+|-Calculadora
+ --index.html
+ --style.css
+ --script.js
+ --README.md
+ --.hintrc
